@@ -1,0 +1,141 @@
+@import url("animate.scss");
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.wrap{
+width: 100%;
+height: 100%;
+overflow: hidden;
+}
+.absolute{
+	position: absolute;
+}
+.fix{
+	position: fixed;
+}
+.page{
+	overflow: hidden;
+}
+.logo{
+	background: url("../images/logo.jpg") no-repeat;
+	width: 23%;
+	height: 15%;
+	display: block;
+	-webkit-background-size: 99%;
+	background-size: 99%;
+	left: 40px;
+	top: 20px;
+}
+.sound{
+	background: url("../images/icon-sound.png") no-repeat;
+	width: 30px;
+	height: 28px;
+	display: block;
+	-webkit-background-size: 99%;
+	background-size: 99%;
+	right: 20px;
+	top: 20px;
+	background-position: 0 0;
+}
+.sound.off{
+	background-position: 0 -30px;
+}
+#page1{
+	background: url("../images/indexbg.png") no-repeat;
+	width: 100%;
+	height: 100%;
+	-webkit-background-size: 125%;
+	background-size: 125%;
+	position: absolute;
+	background-position: 50% 50%;
+}
+.title1{
+	position: absolute;
+	top: 30%;
+	right: 5%;
+	width: 60%;
+}
+.title1 img{
+	float: right;
+}
+#page1 .button{
+	display: block;
+	bottom: 5%;
+	left: 35%;
+	width: 30%;
+	border: 1px solid black;
+	padding: 5px 10px;
+	border-radius: 6px;
+	background: black;
+}
+#page2{
+	background: url("../images/page2bg.png") no-repeat;
+	width: 100%;
+	height: 100%;
+	-webkit-background-size: 99%;
+	background-size: 115%;
+	position: absolute;
+	background-position: 50% 99%;
+	top: 100%;
+}
+.title2{
+	top: 48%;
+	left: 29%;
+	position: absolute;
+}
+.title2 img{
+	 width: 60%;
+	 height: 50%;
+}
+.starlist div{
+	width: 55%;
+	height: 55%;
+	-webkit-background-size: 99%;
+	background-size: 99%;
+	position: absolute;
+	background-position: 50% 50%;
+}
+.star6{
+	background: url("../images/page2wmc.png") no-repeat;
+	top: 57%;
+	left: 21%;
+	opacity: 1;
+}
+.star5{
+		background: url("../images/page2fbb.png") no-repeat;
+	top: 40%;
+	left: -8%;
+	opacity: 1;
+}
+.star4{
+		background: url("../images/page2hrd.png") no-repeat;
+	top: 43%;
+	left: 52%;
+	opacity: 0.2;
+}
+.star3{
+	background: url("../images/page2hcy.png") no-repeat;
+	top: 6%;
+	left: 52%;
+	opacity: 1;
+}
+.star2{
+	background: url("../images/page2man.png") no-repeat;
+	top: 8%;
+	left: -10%;
+	opacity: 0.3;
+}
+.star1{
+  background: url("../images/page2hl.png") no-repeat;
+	top: -9%;
+	left: 20%;
+	opacity: 1;
+}
+
+
+
+
+
+
+
