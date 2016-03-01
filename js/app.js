@@ -1,5 +1,5 @@
 $(function(){
-	$('.sound').on('tap',function(){
+	$('.sound').on('click',function(){
 		$('.sound').toggleClass('off');
 			 // Stuff to do every *odd* time the element is clicked
 		})
@@ -10,7 +10,6 @@ $(function(){
 
 //page2点击就跳入page3 但是不同内容随点击的图片不同加入appendto，且根据加入的数量生成page3 456
 
-alert($("#page2").offset().top)
 
 
 
