@@ -80,9 +80,12 @@ origin	git@github.com:Forgere/test.git (fetch) 接受地址<br>
 origin	git@github.com:Forgere/test.git (push) 推送地址<br>
 18.push分支<br>
   git push origin(远程名也就是git remote) master（推送的本地分支名，可以是任何一个本地分支）<br>
-19.小伙伴一起开发/两台电脑开发<br>
-	<br>
->>>>>>> add
+19.小伙伴一起开发/两台电脑开发，在公司<br>
+	git push --set-upstream origin dev推送本地分支,在远程建立分支<br>
+	之后推送远程分支使用 git push origin dev即可
+20.在家里
+	先创建
+
 
 
 
