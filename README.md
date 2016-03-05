@@ -87,7 +87,7 @@ origin	git@github.com:Forgere/test.git (push) 推送地址<br>
 20.在家里<br>
 	先创建一个相同名字分支，git branch -b dev origin/dev<br>
 	在回到公司<br>
-	先git fetch git pull，没有连接远程用 git branch --set-stream dev origin/dev<br>
+	先git fetch；git merge origin/fenzhi 或者git pull，没有连接远程用 git branch --set-stream dev origin/dev<br>
 	<!-- 标签 --><br>
 21.git tag biaoqian commit号<br>
 		-a指定标签名 -m说明<br>
@@ -98,7 +98,8 @@ origin	git@github.com:Forgere/test.git (push) 推送地址<br>
 	现在本地删除 git tag -d ；然后$ git push origin :refs/tags/tagname<br>
 	<!-- 为毛没有git rebase -->
 25.git rebase与git merge区别
-merge：	将分支共同父节点以后所有commit 合并为一次修改，在master执行；
+merge：	将分支共同父节点以后所有commit 合并为一次修改，在master最新的commit执行，生成一次新的commit；
+rebase：将将分支共同父节点以后所有commit依次在master最新的commit执行，生成一次次新的commit；线性
 
 
 
