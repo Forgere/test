@@ -8,7 +8,7 @@
 	head指向任何一次版本<br>
 5.git文件夹<br>
 	a. stage = index =暂存区/缓存区<br>
-	b. 包含自动创建的master分支，一个指向master分支的head指针。（指针只向哪看得就是哪的版本<br>
+	b. 包含自动创建的master分支，一个指向master分支的head指针。（指针只向哪看得就是哪的版本)<br>
 6.git checkout -- file<br>
 	add前使用，撤销文件未提交到缓存区的修改；<br>
 	还有一个情况，删除某文件后，也可撤销这个删除操作，条件是还未git rm；<br>
