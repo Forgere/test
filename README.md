@@ -9,4 +9,6 @@
 5.git文件夹
 	a. stage = index =暂存区/缓存区
 	b. 包含自动创建的master分支，一个指向master分支的head指针。（指针只向哪看得就是哪的版本）
-6.
+6.git checkout -- file
+	让某文件回到最近一次add的状态，或者最近一次commit的状态
+7.
