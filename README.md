@@ -25,4 +25,7 @@
 	创建分支并切换到分支
 12.git branch
 	查看分支
-13.
+13.git merge dev
+	在主分支合并dev，快进模式本质就是将master的head指针指向dev的最新版本
+14.git merge --no-ff -m "" dev
+	普通模式合并（不使用快进模式）
