@@ -84,7 +84,7 @@ origin	git@github.com:Forgere/test.git (push) 推送地址<br>
 	git push --set-upstream origin dev推送本地分支,在远程建立分支<br>
 	之后推送远程分支使用 git push origin dev即可
 20.在家里
-	先创建
+	先git fetch git pull，没有连接远程用 git branch --set-stream dev origin/dev,ok
 
 
 
