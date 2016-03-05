@@ -30,7 +30,11 @@
 14.git merge --no-ff -m "" dev
 	普通模式合并（不使用快进模式）工作时可以常用。
 15.修复bug
-	创建一个分支；123
+	git stash暂存工作区内容
+	master创建一个分支；修复bug后回master合并；
+	git stash list查看stash位置；
+	git stash apply恢复工作区但不删除，需使用git stash drop删除
+	git stash pop恢复工作区的同时，删除stash
 
 
 
