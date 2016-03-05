@@ -35,8 +35,10 @@
 	git stash list查看stash位置；
 	git stash apply恢复工作区但不删除，需使用git stash drop删除
 	git stash pop恢复工作区的同时，删除stash;
-
-
+16.强制删除未合并的不需要分支
+	git branch -D branchname
+<!-- 多人协作 -->
+17.
 
 
 
