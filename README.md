@@ -38,7 +38,19 @@
 16.强制删除未合并的不需要分支
 	git branch -D branchname
 <!-- 多人协作 -->
-17.
+17.git remote
+一般为origin
+	查看远程
+	git remote -v
+	查看远程
+	➜  test git:(master) git remote -v
+origin	git@github.com:Forgere/test.git (fetch) 接受地址
+origin	git@github.com:Forgere/test.git (push) 推送地址
+18.push分支
+  git push origin(远程名也就是git remote) master（推送的本地分支名，可以是任何一个本地分支）
+19.小伙伴一起开发/两台电脑开发
+	
+
 
 
 
