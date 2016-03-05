@@ -49,6 +49,7 @@ origin	git@github.com:Forgere/test.git (push) 推送地址
 18.push分支
   git push origin(远程名也就是git remote) master（推送的本地分支名，可以是任何一个本地分支）
 19.小伙伴一起开发/两台电脑开发
+	推送分支 git push --set-upstream origin dev
 	
 
 
