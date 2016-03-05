@@ -1,3 +1,4 @@
+GIT 备查手册
 1.git add<br>
 	添加工作区内容的修改至缓存区。<br>
 2.git commit<br>
