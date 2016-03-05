@@ -83,19 +83,19 @@ origin	git@github.com:Forgere/test.git (push) 推送地址<br>
   git push origin(远程名也就是git remote) master（推送的本地分支名，可以是任何一个本地分支）<br>
 19.小伙伴一起开发/两台电脑开发，在公司<br>
 	git push --set-upstream origin dev推送本地分支,在远程建立分支<br>
-	之后推送远程分支使用 git push origin dev即可
-20.在家里
-	先创建一个相同名字分支，git branch -b dev origin/dev
-	在回到公司
-	先git fetch git pull，没有连接远程用 git branch --set-stream dev origin/dev
-	<!-- 标签 -->
-21.git tag biaoqian commit号
-		-a指定标签名 -m说明
-22.git tag -d 标签删除
-23.推送标签到远程
-	 git push origin tagname/一次推所有未推得 git push origin --tags
-24.远程标签删除
-	现在本地删除 git tag -d ；然后$ git push origin :refs/tags/tagname
+	之后推送远程分支使用 git push origin dev即可<br>
+20.在家里<br>
+	先创建一个相同名字分支，git branch -b dev origin/dev<br>
+	在回到公司<br>
+	先git fetch git pull，没有连接远程用 git branch --set-stream dev origin/dev<br>
+	<!-- 标签 --><br>
+21.git tag biaoqian commit号<br>
+		-a指定标签名 -m说明<br>
+22.git tag -d 标签删除<br>
+23.推送标签到远程<br>
+	 git push origin tagname/一次推所有未推得 git push origin --tags<br>
+24.远程标签删除<br>
+	现在本地删除 git tag -d ；然后$ git push origin :refs/tags/tagname<br>
 
 
 
