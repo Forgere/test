@@ -29,12 +29,15 @@
 	在主分支合并dev，快进模式本质就是将master的head指针指向dev的最新版本
 14.git merge --no-ff -m "" dev
 	普通模式合并（不使用快进模式）工作时可以常用。
-<<<<<<< Updated upstream
-15.修复bug
+15.修复bug紧急
 	创建一个分支；修复bug后回master合并；
 	git stash list查看stash位置；
 	git stash apply恢复工作区但不删除，需使用git stash drop删除
 	git stash pop恢复工作区的同时，删除stash;
+=======
+15.修复bug紧急
+	暂存现有工作区git stash;创建一个分支；
+>>>>>>> Stashed changes
 
 
 
