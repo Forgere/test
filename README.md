@@ -100,6 +100,8 @@ origin	git@github.com:Forgere/test.git (push) 推送地址<br>
 25.git rebase与git merge区别
 merge：	将分支共同父节点以后所有commit 合并为一次修改，在master最新的commit执行，生成一次新的commit；
 rebase：将将分支共同父节点以后所有commit依次在master最新的commit执行，生成一次次新的commit；线性
+        git pull --rebase origin add
+        git fetch origin master:tmp;merge
 
 
 
