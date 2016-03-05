@@ -96,6 +96,10 @@ origin	git@github.com:Forgere/test.git (push) 推送地址<br>
 	 git push origin tagname/一次推所有未推得 git push origin --tags<br>
 24.远程标签删除<br>
 	现在本地删除 git tag -d ；然后$ git push origin :refs/tags/tagname<br>
+	<!-- 为毛没有git rebase -->
+25.git rebase与git merge区别
+merge：	将分支共同父节点以后所有commit 合并为一次修改，在master执行；
+
 
 
 
