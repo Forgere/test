@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.page2{
+			width: 100px;
+			height: 100px;
+			background-color: red;
+		}
+	</style>
+	<script src="jquery.min.js"></script>
+</head>
+<body>
+	<div class="page1 page2">
+	</div>
+	<script>
+	// $('.page1').on('click', function(event) {
+	// 	event.preventDefault();
+	// 	/* Act on the event */
+	// 	alert(1);
+	// });
+
+
+	// 	$(document).on('click', '.page1',function(event) {
+	// 	event.preventDefault();
+	// 	/* Act on the event */
+	// 	alert(1);
+	// });
+
+$a = $('.page1');
+console.log($a);
+$a.removeClass('page1');
+console.log($a);
+
+// 元素节点没变。
+
+
+
+
+	</script>
+</body>
+</html>
